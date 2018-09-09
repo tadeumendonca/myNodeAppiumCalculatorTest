@@ -1,0 +1,29 @@
+{
+  "name": "mynodeappiumcalculatortest",
+  "version": "1.0.0",
+  "description": "Casos de Teste do app Calcu como exemplo para utilização do cliente node.js com o Appium.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha webdriverio-calcu.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tadeumendonca/myNodeAppiumCalculatorTest.git"
+  },
+  "author": "Tadeu Mendonça",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tadeumendonca/myNodeAppiumCalculatorTest/issues"
+  },
+  "homepage": "https://github.com/tadeumendonca/myNodeAppiumCalculatorTest#readme",
+  "dependencies": {
+    "appium-uiautomator2-driver": "^1.17.1",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^5.2.0",
+    "wd": "^1.10.3",
+    "wdio-appium-service": "^0.2.3",
+    "wdio-mocha-framework": "^0.6.3",
+    "webdriverio": "^4.13.2"
+  }
+}

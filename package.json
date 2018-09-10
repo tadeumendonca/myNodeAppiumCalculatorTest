@@ -4,7 +4,7 @@
   "description": "Casos de Teste do app Calcu como exemplo para utilização do cliente node.js com o Appium.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha webdriverio-calcu.js"
+    "test": "mocha test/webdriverio-calcu.js"
   },
   "repository": {
     "type": "git",

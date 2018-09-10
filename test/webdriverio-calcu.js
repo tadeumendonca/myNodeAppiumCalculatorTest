@@ -1,6 +1,6 @@
 var webdriverio = require('webdriverio');
 var expect = require('chai').expect;
-var config = require('./helpers/desiredCapabilities').options;
+var config = require('../helpers/desiredCapabilities').options;
 var client = webdriverio.remote(config);
 
 describe('CALCU Testing', function () {
